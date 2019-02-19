@@ -1,4 +1,4 @@
-{% set version = '0.1.11' %}
+{% set version = "0.1.13" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ChemometricsWithR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ChemometricsWithR/ChemometricsWithR_{{ version }}.tar.gz
-  sha256: 2d774b56238f9aa9da0bb50c93e41116d0aced248bd4e3c3681b974aef4ae003
+  sha256: f852f6f04d7404d6e0ed552318e5809465bdc0bf9cf03a71109b873a5e50db98
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
