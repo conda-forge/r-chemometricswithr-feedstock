@@ -1,11 +1,11 @@
-About r-chemometricswithr
-=========================
+About r-chemometricswithr-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-chemometricswithr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rwehrens/CWR
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-chemometricswithr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions and scripts used in the book "Chemometrics with R - Multivariate Data Analysis in the Natural Sciences and Life Sciences" by Ron Wehrens, Springer (2011). Data used in the package are available from github.
 
